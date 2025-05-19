@@ -1,0 +1,9 @@
+{
+	"name": "adworks-adf1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e5e60989-eff7-4495-b22c-b53ce924a961",
+		"tenantId": "1a8cbe9b-079d-4135-a1e8-ed8069714108"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"name": "DSHttp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "abhishek-dataengineer/Adventure-Works-Azure-data-Engineer/refs/heads/main/raw%20data/AdventureWorks_Calendar.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
